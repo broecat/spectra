@@ -1,0 +1,54 @@
+2025-07-07 01:03:23,872 : INFO : root : Loading config.
+2025-07-07 01:03:23,875 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-07-07 01:03:23,876 : WARNING : ConfigProcessor : Config file in cache changed: /home/broecat/workspace/spectra/config/config.yaml
+2025-07-07 01:03:23,876 : INFO : ConfigProcessor : Loading config from file /home/broecat/mpf/lib/python3.10/site-packages/mpf/mpfconfig.yaml.
+2025-07-07 01:03:23,885 : INFO : ConfigProcessor : Loading config: /home/broecat/mpf/lib/python3.10/site-packages/mpf/mpfconfig.yaml
+2025-07-07 01:03:23,885 : INFO : ConfigProcessor : Loading config from file /home/broecat/workspace/spectra/config/config.yaml.
+2025-07-07 01:03:23,886 : INFO : ConfigProcessor : Loading config: /home/broecat/workspace/spectra/config/config.yaml
+2025-07-07 01:03:23,887 : INFO : ConfigProcessor : Config file cache created: /tmp/83d4166d065e495b1ad23118a80a740e.mpf_cache
+2025-07-07 01:03:23,936 : INFO : ConfigProcessor : Loading config from cache: /tmp/89f7f1d8ce7b7de8efd8942de8c42139.mpf_cache
+2025-07-07 01:03:23,936 : INFO : ConfigProcessor : Loading config from cache: /tmp/747a125ec66d9b3441edc93bd1ecc45e.mpf_cache
+2025-07-07 01:03:23,937 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev8
+2025-07-07 01:03:23,937 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-07-07-01-03-23-mpf-NARA.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': '/home/broecat/workspace/spectra/logs/2025-07-07-01-03-23-mpf-NARA.log'}
+2025-07-07 01:03:23,937 : INFO : Machine : MPF path: /home/broecat/mpf/lib/python3.10/site-packages/mpf
+2025-07-07 01:03:23,937 : INFO : Machine : Machine path: /home/broecat/workspace/spectra
+2025-07-07 01:03:23,937 : INFO : Machine : Platform: linux
+2025-07-07 01:03:23,937 : INFO : Machine : Python executable location: /home/broecat/mpf/bin/python3
+2025-07-07 01:03:23,937 : INFO : Machine : Python version: 3.10.12 (64-bit)
+2025-07-07 01:03:23,938 : INFO : Machine : Initializing MPF...
+2025-07-07 01:03:23,982 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-07-07 01:03:23,993 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-07-07 01:03:23,993 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev8', 'prev_value': None, 'change': True}
+2025-07-07 01:03:23,993 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev8, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-07-07 01:03:23,994 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.10.12', 'prev_value': None, 'change': True}
+2025-07-07 01:03:23,995 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'prev_value': None, 'change': True}
+2025-07-07 01:03:23,995 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Linux', 'prev_value': None, 'change': True}
+2025-07-07 01:03:23,995 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '6.6.87.2-microsoft-standard-WSL2', 'prev_value': None, 'change': True}
+2025-07-07 01:03:23,995 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025', 'prev_value': None, 'change': True}
+2025-07-07 01:03:23,995 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'x86_64', 'prev_value': None, 'change': True}
+2025-07-07 01:03:23,995 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/home/broecat/workspace/spectra/logs/2025-07-07-01-03-23-mpf-NARA.log', 'prev_value': None, 'change': True}
+2025-07-07 01:03:23,995 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-07-07 01:03:24,005 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-07-07 01:03:24,009 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-07-07 01:03:24,010 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-07-07 01:03:24,011 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-07-07 01:03:24,011 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-07-07 01:03:24,011 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-07-07 01:03:24,011 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-07-07 01:03:24,012 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2025-07-07 01:03:24,012 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-07-07 01:03:24,012 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-07-07 01:03:24,012 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-07-07 01:03:24,012 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-07-07 01:03:24,013 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-07-07 01:03:24,013 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-07-07 01:03:24,013 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2025-07-07 01:03:24,013 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2025-07-07 01:03:24,013 : INFO : Mode.attract : Started. Priority: 10
+2025-07-07 01:03:24,013 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-07-07 01:03:24,013 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2025-07-07 01:03:24,013 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2025-07-07 01:03:24,014 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2025-07-07 01:03:28,448 : INFO : Machine : Shutting down...
+2025-07-07 01:03:28,448 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-07-07 01:03:28,450 : INFO : root : MPF run loop ended.

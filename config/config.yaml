@@ -1,0 +1,34 @@
+#config_version=6
+
+hardware:
+  platform: fast
+  driverboards: fast
+
+switches:
+  s_left_flipper:
+    number: 0
+  s_right_flipper:
+    number: 1
+coils:
+  c_flipper_left_main:
+    number: 0
+    allow_enable: true
+    default_hold_power: 0.5
+  c_flipper_right_main:
+    number: 2
+    allow_enable: true
+    default_hold_power: 0.5
+playfields:
+  playfield:
+    tags: default
+    default_source_device: None  # use None in steps before 8
+
+flippers:
+  left_flipper:
+    main_coil: c_flipper_left_main
+    activation_switch: s_left_flipper
+    enable_events: machine_reset_phase_3
+  right_flipper:
+    main_coil: c_flipper_right_main
+    activation_switch: s_right_flipper
+    enable_events: machine_reset_phase_3

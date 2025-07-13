@@ -1,0 +1,84 @@
+2025-07-07 00:50:47,674 : INFO : root : Loading config.
+2025-07-07 00:50:47,676 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-07-07 00:50:47,676 : WARNING : ConfigProcessor : Config file in cache changed: /home/broecat/workspace/spectra/config/config.yaml
+2025-07-07 00:50:47,677 : INFO : ConfigProcessor : Loading config from file /home/broecat/mpf/lib/python3.10/site-packages/mpf/mpfconfig.yaml.
+2025-07-07 00:50:47,685 : INFO : ConfigProcessor : Loading config: /home/broecat/mpf/lib/python3.10/site-packages/mpf/mpfconfig.yaml
+2025-07-07 00:50:47,685 : INFO : ConfigProcessor : Loading config from file /home/broecat/workspace/spectra/config/config.yaml.
+2025-07-07 00:50:47,686 : INFO : ConfigProcessor : Loading config: /home/broecat/workspace/spectra/config/config.yaml
+2025-07-07 00:50:47,687 : INFO : ConfigProcessor : Config file cache created: /tmp/83d4166d065e495b1ad23118a80a740e.mpf_cache
+2025-07-07 00:50:47,711 : INFO : ConfigProcessor : Loading config from cache: /tmp/89f7f1d8ce7b7de8efd8942de8c42139.mpf_cache
+2025-07-07 00:50:47,712 : INFO : ConfigProcessor : Loading config from cache: /tmp/747a125ec66d9b3441edc93bd1ecc45e.mpf_cache
+2025-07-07 00:50:47,712 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev8
+2025-07-07 00:50:47,712 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-07-07-00-50-47-mpf-NARA.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': '/home/broecat/workspace/spectra/logs/2025-07-07-00-50-47-mpf-NARA.log'}
+2025-07-07 00:50:47,712 : INFO : Machine : MPF path: /home/broecat/mpf/lib/python3.10/site-packages/mpf
+2025-07-07 00:50:47,712 : INFO : Machine : Machine path: /home/broecat/workspace/spectra
+2025-07-07 00:50:47,712 : INFO : Machine : Platform: linux
+2025-07-07 00:50:47,712 : INFO : Machine : Python executable location: /home/broecat/mpf/bin/python3
+2025-07-07 00:50:47,712 : INFO : Machine : Python version: 3.10.12 (64-bit)
+2025-07-07 00:50:47,713 : INFO : Machine : Initializing MPF...
+2025-07-07 00:50:47,737 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-07-07 00:50:47,744 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-07-07 00:50:47,744 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev8', 'prev_value': None, 'change': True}
+2025-07-07 00:50:47,744 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev8, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-07-07 00:50:47,744 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.10.12', 'prev_value': None, 'change': True}
+2025-07-07 00:50:47,746 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'prev_value': None, 'change': True}
+2025-07-07 00:50:47,746 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Linux', 'prev_value': None, 'change': True}
+2025-07-07 00:50:47,746 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '6.6.87.2-microsoft-standard-WSL2', 'prev_value': None, 'change': True}
+2025-07-07 00:50:47,746 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025', 'prev_value': None, 'change': True}
+2025-07-07 00:50:47,746 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'x86_64', 'prev_value': None, 'change': True}
+2025-07-07 00:50:47,746 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/home/broecat/workspace/spectra/logs/2025-07-07-00-50-47-mpf-NARA.log', 'prev_value': None, 'change': True}
+2025-07-07 00:50:47,746 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-07-07 00:50:47,753 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...our config.')>) at /home/broecat/mpf/lib/python3.10/site-packages/mpf/core/events.py:124
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...our config.')>) at /home/broecat/mpf/lib/python3.10/site-packages/mpf/core/events.py:124>
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/broecat/mpf/lib/python3.10/site-packages/mpf/core/events.py", line 127, in _async_handler_done
+    future.result()
+  File "/home/broecat/mpf/lib/python3.10/site-packages/mpf/core/device_manager.py", line 88, in _load_device_modules
+    self.load_devices_config(validate=True)
+  File "/home/broecat/mpf/lib/python3.10/site-packages/mpf/core/device_manager.py", line 146, in load_devices_config
+    config[device_name] = collection[device_name].validate_and_parse_config(config[device_name], False)
+  File "/home/broecat/mpf/lib/python3.10/site-packages/mpf/core/device.py", line 108, in validate_and_parse_config
+    self.machine.config_validator.validate_config(
+  File "/home/broecat/mpf/lib/python3.10/site-packages/mpf/core/config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+  File "/home/broecat/mpf/lib/python3.10/site-packages/mpf/core/config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+  File "/home/broecat/mpf/lib/python3.10/site-packages/mpf/core/config_validator.py", line 243, in validate_config_item
+    return self.validate_item(item, validation, validation_failure_info)
+  File "/home/broecat/mpf/lib/python3.10/site-packages/mpf/core/config_validator.py", line 699, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+  File "/home/broecat/mpf/lib/python3.10/site-packages/mpf/core/config_validator.py", line 413, in _validate_type_machine
+    raise self.validation_error(item, validation_failure_info,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry flippers:left_flipper:hold_coil = "c_flipper_left_hold" is not valid. Device "c_flipper_left_hold" not found in "coils:" section in your config. Error Code: CFE-ConfigValidator-6 (https://missionpinball.org/logs)
+2025-07-07 00:50:47,754 : INFO : Machine : Starting the main run loop with active modes: []
+2025-07-07 00:50:47,754 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2025-07-07 00:50:47,754 : INFO : Machine : Shutting down...
+2025-07-07 00:50:47,754 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-07-07 00:50:48,756 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "/home/broecat/mpf/lib/python3.10/site-packages/mpf/core/machine.py", line 808, in _run_loop
+    raise self._exception['exception']
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/broecat/mpf/lib/python3.10/site-packages/mpf/core/events.py", line 127, in _async_handler_done
+    future.result()
+  File "/home/broecat/mpf/lib/python3.10/site-packages/mpf/core/device_manager.py", line 88, in _load_device_modules
+    self.load_devices_config(validate=True)
+  File "/home/broecat/mpf/lib/python3.10/site-packages/mpf/core/device_manager.py", line 146, in load_devices_config
+    config[device_name] = collection[device_name].validate_and_parse_config(config[device_name], False)
+  File "/home/broecat/mpf/lib/python3.10/site-packages/mpf/core/device.py", line 108, in validate_and_parse_config
+    self.machine.config_validator.validate_config(
+  File "/home/broecat/mpf/lib/python3.10/site-packages/mpf/core/config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+  File "/home/broecat/mpf/lib/python3.10/site-packages/mpf/core/config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+  File "/home/broecat/mpf/lib/python3.10/site-packages/mpf/core/config_validator.py", line 243, in validate_config_item
+    return self.validate_item(item, validation, validation_failure_info)
+  File "/home/broecat/mpf/lib/python3.10/site-packages/mpf/core/config_validator.py", line 699, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+  File "/home/broecat/mpf/lib/python3.10/site-packages/mpf/core/config_validator.py", line 413, in _validate_type_machine
+    raise self.validation_error(item, validation_failure_info,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry flippers:left_flipper:hold_coil = "c_flipper_left_hold" is not valid. Device "c_flipper_left_hold" not found in "coils:" section in your config. Error Code: CFE-ConfigValidator-6 (https://missionpinball.org/logs)
+2025-07-07 00:50:48,757 : INFO : root : MPF run loop ended.

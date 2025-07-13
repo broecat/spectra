@@ -1,0 +1,6 @@
+2025-07-07 00:50:10,597 : INFO : root : Loading config.
+2025-07-07 00:50:10,599 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-07-07 00:50:10,600 : WARNING : ConfigProcessor : Config file in cache changed: /home/broecat/workspace/spectra/config/config.yaml
+2025-07-07 00:50:10,600 : INFO : ConfigProcessor : Loading config from file /home/broecat/mpf/lib/python3.10/site-packages/mpf/mpfconfig.yaml.
+2025-07-07 00:50:10,608 : INFO : ConfigProcessor : Loading config: /home/broecat/mpf/lib/python3.10/site-packages/mpf/mpfconfig.yaml
+2025-07-07 00:50:10,608 : INFO : ConfigProcessor : Loading config from file /home/broecat/workspace/spectra/config/config.yaml.
